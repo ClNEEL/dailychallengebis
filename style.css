@@ -26,9 +26,13 @@ nav ul {
 
 h1{
   font-family: 'Roboto', sans-serif;
-  color:  #41A3C0; 
+   color:  #41A3C0; 
   font-weight: bolder;
   font-size: 2em;
+  margin: 0;
+  padding: 20px 0;    
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
 }
 
 h2 {
@@ -84,25 +88,49 @@ a:hover {
   top:1px;
 }
 
- .feature {border: 1px solid #F2F2F2;
+.feature,.defis{
+  border: 1px solid #F2F2F2;
+  background: #FAFAFA;
   margin: 15px;
   padding: 15px 0;
   text-align: center;
   width: 400px;
 }
 
- #apropos{
+#apropos{
   margin: 0 auto;
   width: 80%;
   display:flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   justify-content: center;
+
+}
+
+nav li {
+  margin: 10px;
+  display:inline;
+}
+
+nav ul {
+  float: left;
+  margin-top: 25px;
 }
 
 #logo{
-  color: #fff;
+  color: #FFB6C1;
   font-size: 35px;
   font-family: 'Pacifico', cursive;
   float: left;
   margin-left: 50px;
+}
+
+  #welcome{
+  background-color: #41A3C0;
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+#welcome h4{
+ font-size: 50px;
 }
